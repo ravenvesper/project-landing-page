@@ -4,23 +4,47 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 150px;
 }
 #first {
     background-color: #1F2937;
-    padding: 50px;
     display: flex;
+    flex-direction: column;
 }
 
-.links {
+.logo_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.links {
     font-size: 18px;
     text-decoration: none;
+    margin-right: 75px;
+    margin-top: 25px;
 
+}
+
+.title_image {
+    display: flex;
+    flex-direction: row;
+}
+
+.title_button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    flex-wrap: nowrap;
 }
 
 .title {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8
+
 }
 
 .about {
@@ -29,8 +53,17 @@ body {
 }
 
 .sign_up {
+    font-size: 20px;
+    border-radius: 5px;
     background-color: #3882F6;
     color:#E5E7EB;
+}
+
+.img_1 {
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    margin-right: 150px;
 }
 
 #second {
@@ -38,42 +71,124 @@ body {
     flex-direction: column;
 }
 
+.info {
+    display: flex;
+    justify-content: center;
+}
+
 .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icons_1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+.icons_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img_2 {
+    width: 350px;
+    height: 350px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.img_3 {
+    width: 350px;
+    height: 350px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.img_4 {
+    width: 350px;
+    height: 350px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.img_5 {
+    width: 350px;
+    height: 350px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
 #third {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .quote_penis {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .by_jesus {
     font-weight: bold;
+    margin-left: 1000px;
 }
 
 
 #fourth {
     background-color: #3882F6;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
+}
+
+.action_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.action {
+    color:#E5E7EB
 }
 
 .footer_button {
     background-color: #3882F6;
+    margin-top: 25px;
     color:#E5E7EB;
     border-radius: 5px;
     border-color: #E5E7EB;
 }
 
 #footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
     display: flex;
+    text-align: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
